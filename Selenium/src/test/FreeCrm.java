@@ -11,7 +11,7 @@ public class FreeCrm {
 	System.setProperty("webdriver.chrome.driver","/Users/suchitraloka/Downloads/driver/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.freecrm.com/index.html");
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 		driver.findElement(By.xpath("//*[@id='loginForm']/div/input[1]")).sendKeys("Suchi");
 		//Thread.sleep(3000);
 		driver.findElement(By.xpath("//*[@id='loginForm']/div/input[2]")).sendKeys("Loka");
